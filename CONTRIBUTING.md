@@ -28,7 +28,7 @@ We appreciate PRs but encourage you to follow these guidelines for the reviewer:
 * Add/update tests for the code modified. 
 * PRs should be kept small and cohesive. If you're making bigger change, consider chunking up the PR into small pieces.
 
-Github actions are use to run tests on the latest ubuntu:20.04 image.
+Github actions are used to run tests on the latest ubuntu:20.04 image.
 
 Commits
 -------
