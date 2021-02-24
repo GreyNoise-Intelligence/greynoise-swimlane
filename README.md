@@ -43,6 +43,13 @@ appropriate output based on where the IP was located
 The Execute GNQL Query action is designed to perform a GNQL query against the GreyNoise query endpoint and return all
 matching records, up to the supplied limit (default is 10 results).
 
+#### Get All Tag Metadata
+The Get Tags action is designed to query the GreyNoise Metadata API and retrieve all the tag information that is 
+used for IP tagging.
+
+#### Get Tag Details
+The Get Tag Details action is designed to retrieve the metadata for a single GreyNoise tag.
+
 ### Alerting
 
 The GreyNoise GNQL Query task with a defined trigger can be used to generate alerts from the GreyNoise data.
@@ -59,7 +66,27 @@ triggered to run once per day with the defined GNQL.  The output of the task sho
 to create a new record for each IP returned from the query.  These can then be triages as part of any standard alerting
 workflow
 
- ## Contributing
+## Development Environment
+In order to work on this integration, ensure that the Swimlane btb (bundle-toolbelt) is installed, and the btb-build
+docker container is running locally.  To get the docker container:
+
+`docker run -p 22:22 swimlane/btb-build:latest`
+
+To build a new swimbundle/plugin file, run:
+
+`btb build greynoise/ --platform Linux --py36`
+Enter 'build' when prompted
+
+To rev the version of the integration, run:
+
+`btb bump greynoise/ patch --verbose`
+
+To add a new task to the integration, run:
+
+`btb enhance greynoise/`
+Select Clone Task from the menu
+
+## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting 
 pull requests to us.
@@ -67,13 +94,13 @@ pull requests to us.
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the 
-[tags on this repository](https://github.com/GreyNoise-Intelligence/os-template/tags).
+[tags on this repository](https://github.com/GreyNoise-Intelligence/greynoise-swimlane/tags).
 
 ## Authors
 
 * **Brad Chiappetta** - *Initial work* - [bradchiappetta](https://github.com/bradchiappetta)
 
-See also the list of [contributors](https://github.com/GreyNoise-Intelligence/os-template/contributors) 
+See also the list of [contributors](https://github.com/GreyNoise-Intelligence/greynoise-swimlane/contributors) 
 who participated in this project.
 
 ## Acknowledgments

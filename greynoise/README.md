@@ -61,6 +61,13 @@ and use the following value:
 
 `<a target="_blank" href={{viz_url}}>View Details on the GreyNoise Visualizer</a>`
 
+### Storing Tag Metadata to use for Reference Links
+The Get All Tags action can be used to query and store all GreyNoise tags in a dedicated Application, so that when 
+performing IP lookups, reference fields can be created to show all the details of a specific tag.  It is recommended
+to create a `GreyNoise Tags` application and to set up the GreyNoise Get Tags action to run once per day.
+
+Additional information can be found [HERE](https://github.com/GreyNoise-Intelligence/greynoise-swimlane/tree/main/additional_content)
+
 ## Notes
 
 * Additional content to support this integration can be found here: 
