@@ -1,6 +1,6 @@
 from greynoise import GreyNoise
 
-PLUGIN_VERSION = "v1.0.0"
+PLUGIN_VERSION = "v1.0.1"
 
 
 class GreynoiseBaseClass(object):

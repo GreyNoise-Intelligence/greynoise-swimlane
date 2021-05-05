@@ -1,7 +1,7 @@
 {
   "name": "GreyNoise",
   "type": "GreyNoise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GreyNoise API Connection Parameters. Sign up for a free trial at viz.greynoise.io",
   "family": "Investigation",
   "inputParameters": {

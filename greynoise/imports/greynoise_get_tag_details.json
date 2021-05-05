@@ -1,11 +1,11 @@
 {
   "name": "GreyNoise Get Tag Details",
   "description": "Get the Details for a Specific GreyNoise tag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "family": "Investigation",
   "actionType": "GreyNoiseGetTagDetails",
   "assetDependencyType": "GreyNoise",
-  "assetDependencyVersion": "1.0.0",
+  "assetDependencyVersion": "1.0.1",
   "inputParameters": {
     "tag_name": {
       "name": "GreyNoise Tag Name",

@@ -15,7 +15,4 @@ class SwMain(GreynoiseBaseClass):
                 result["viz_url"] = "https://viz.greynoise.io/ip/" + result["ip"]
                 output.append(result)
 
-        else:
-            output.append(response)
-
         return output

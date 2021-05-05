@@ -1,11 +1,11 @@
 {
   "name": "GreyNoise Quick Lookup",
   "description": "Lookup an IP address in the GreyNoise Quick API Endpoint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "family": "Investigation",
   "actionType": "GreyNoiseQuickLookup",
   "assetDependencyType": "GreyNoise",
-  "assetDependencyVersion": "1.0.0",
+  "assetDependencyVersion": "1.0.1",
   "inputParameters": {
     "ip_address": {
       "name": "IP Address",

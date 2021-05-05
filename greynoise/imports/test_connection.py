@@ -4,8 +4,8 @@ from sw_greynoise import GreynoiseBaseClass
 
 class Test(GreynoiseBaseClass):
     def connect(self):
-        response = str(self.session.test_connection())
-        if response != "Success: Access and API Key Valid":
+        response = self.session.test_connection()
+        if response["message"] != "pong":
             raise Exception("Connection Error: " + response)
 
 

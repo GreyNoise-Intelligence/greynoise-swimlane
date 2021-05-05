@@ -1,11 +1,11 @@
 {
   "name": "Perform GreyNoise Query (GNQL)",
   "description": "Perform a GreyNoise GNQL Query",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "family": "Investigation",
   "actionType": "PerformGreyNoiseQuery",
   "assetDependencyType": "GreyNoise",
-  "assetDependencyVersion": "1.0.0",
+  "assetDependencyVersion": "1.0.1",
   "inputParameters": {
     "query": {
       "name": "GreyNoise Query",
@@ -69,6 +69,10 @@
     "vpn_service": {
       "type": 1,
       "name": "GN VPN Service"
+    },
+    "bot": {
+      "type": 1,
+      "name": "GN BOT"
     },
     "metadata": {
       "type": 1,

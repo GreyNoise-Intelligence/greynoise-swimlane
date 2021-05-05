@@ -1,11 +1,11 @@
 {
   "name": "GreyNoise IP Lookup",
   "description": "Lookups up an IP address in the RIOT, Quick and Context GreyNoise API Endpoint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "family": "Investigation",
   "actionType": "GreyNoiseIPLookup",
   "assetDependencyType": "GreyNoise",
-  "assetDependencyVersion": "1.0.0",
+  "assetDependencyVersion": "1.0.1",
   "inputParameters": {
     "ip_address": {
       "name": "IP Address",
@@ -73,6 +73,10 @@
     "vpn_service": {
       "type": 1,
       "name": "GN VPN Service"
+    },
+    "bot": {
+      "type": 1,
+      "name": "GN BOT"
     },
     "metadata": {
       "type": 1,
