@@ -1,7 +1,7 @@
 {
   "version_hash": null,
   "author_email": "info@swimlane.com",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "GreyNoise tells security analysts what not to worry about. We do this by curating data on IPs that saturate security tools with noise. This unique perspective helps analysts confidently ignore irrelevant or harmless activity, creating more time to uncover and investigate true threats. Includes Actions to allow IP enrichments and GNQL queries via the GreyNoise API.",
   "scripts": [],
   "author": "Swimlane",

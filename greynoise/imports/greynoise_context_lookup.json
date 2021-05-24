@@ -1,11 +1,11 @@
 {
   "name": "GreyNoise Context Lookup",
   "description": "Lookup an IP address in the GreyNoise Context API Endpoint",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "family": "Investigation",
   "actionType": "GreyNoiseContextLookup",
   "assetDependencyType": "GreyNoise",
-  "assetDependencyVersion": "1.0.1",
+  "assetDependencyVersion": "1.1.0",
   "inputParameters": {
     "ip_address": {
       "name": "IP Address",
