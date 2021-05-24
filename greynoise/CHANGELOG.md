@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.1.0 - 2021-05-24
+
+* Added Support for GreyNoise Community (Free) API Lookups
+* Product version tested against: 10.2.2
+
 ## 1.0.1 - 2021-05-05
 
 * Fixed Bug in IP Lookup where multiple outputs were provided

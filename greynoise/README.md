@@ -5,10 +5,18 @@ tools with noise. This unique perspective helps analysts confidently ignore irre
 more time to uncover and investigate true threats. Includes tasks to allow IP enrichment and GNQL queries via 
 the GreyNoise v2 API.
 
+GreyNoise Community users may also use this plugin to query the GreyNoise Community (Free) API via the `GreyNoise
+Community IP Lookup` action.  For those users with only community level access to GreyNoise, this is the only action
+that will work successfully.  Users with a Paid GreyNoise subscription have access to all actions included in this
+plugin.
+
 ## Prerequisites
 
 An API key for the GreyNoise API is required to use this integration.  If you don't have one, sign up for a free 
 trial at [https://viz.greynoise.io/signup](https://viz.greynoise.io/signup)
+
+Note: Users with a Paid Subscription or Enterprise Trial will be able to use all actions.  Users with only a free, 
+Community level API key will only have access to the `GreyNoise Community IP Lookup` action.
 
 ## Capabilities
 
@@ -20,6 +28,7 @@ This plugin provides the following capabilities:
 * Perform a GreyNoise Query (GNQL)
 * Lookup GreyNoise Tag Details
 * Get a list of all GreyNoise Tags
+* Lookup IP in GreyNoise Community API
 
 ### Limitations
 
@@ -75,19 +84,3 @@ Additional information can be found [HERE](https://github.com/GreyNoise-Intellig
 * For issues with this integration, please contact [hello@greynoise.io](mailto:hello@greynoise.io)
 
 This plugin was last tested against product version: 10.2.2.
-
-This plugin was last tested against product version: !*CHANGEME*!.
-
-This plugin was last tested against product version: !*CHANGEME*!.
-
-This plugin was last tested against product version: !*CHANGEME*!.
-
-This plugin was last tested against product version: !*CHANGEME*!.
-
-This plugin was last tested against product version: !*CHANGEME*!.
-
-This plugin was last tested against product version: !*CHANGEME*!.
-
-This plugin was last tested against product version: !*CHANGEME*!.
-
-This plugin was last tested against product version: !*CHANGEME*!.
