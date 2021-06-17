@@ -1,2 +1,2 @@
-greynoise==0.9.1
+greynoise==1.0.0
 swimbundle-utils==4.3.3

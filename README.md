@@ -70,11 +70,11 @@ workflow
 In order to work on this integration, ensure that the Swimlane btb (bundle-toolbelt) is installed, and the btb-build
 docker container is running locally.  To get the docker container:
 
-`docker run -p 22:22 swimlane/btb-build:latest`
+`docker run -p 15:22 swimlane/btb-build:latest`
 
 To build a new swimbundle/plugin file, run:
 
-`btb build greynoise/ --platform Linux --py36`
+`btb build greynoise/ --platform Linux`
 Enter 'build' when prompted
 
 To rev the version of the integration, run:
