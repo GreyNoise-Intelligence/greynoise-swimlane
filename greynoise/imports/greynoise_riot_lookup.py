@@ -10,8 +10,8 @@ class SwMain(GreynoiseBaseClass):
         output = []
         response = self.session.riot(self.ip_address)
         if response["riot"]:
-            response["viz_url"] = "https://viz.greynoise.io/riot/" + self.ip_address
-            response["classification"] = "benign"
+            response["viz_url"] = "https://www.greynoise.io/viz/ip/" + self.ip_address
+            response["classification"] = "RIOT"
         output.append(response)
 
         return output

@@ -1,11 +1,11 @@
 {
   "name": "GreyNoise Get All Tags",
   "description": "Get the List of GreyNoise Tags",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "family": "Investigation",
   "actionType": "GreyNoiseGetTags",
   "assetDependencyType": "GreyNoise",
-  "assetDependencyVersion": "1.1.0",
+  "assetDependencyVersion": "1.2.0",
   "inputParameters": {},
   "availableOutputTypes": [
     "email",
