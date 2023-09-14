@@ -20,11 +20,10 @@ class SwMain(GreynoiseBaseClass):
                 context_response["message"] = "Success."
                 for section in raw_data_subsections:
                     if len(context_response["raw_data"][section]) > 1000:
-                        context_response["raw_data"][section] = \
-                            context_response["raw_data"][section][:1000]
-                        context_response["message"] = \
-                            str(context_response["message"]) + " Raw Data - " + section\
-                            + " truncated to 1000 results."
+                        context_response["raw_data"][section] = context_response["raw_data"][section][:1000]
+                        context_response["message"] = (
+                            str(context_response["message"]) + " Raw Data - " + section + " truncated to 1000 results."
+                        )
                 output.append(context_response)
             else:
                 output.append(result)
