@@ -1,18 +1,20 @@
 {
   "version_hash": null,
-  "author_email": "info@swimlane.com",
+  "author_email": "support@greynoise.io",
   "version": "1.2.0",
   "description": "GreyNoise tells security analysts what not to worry about. We do this by curating data on IPs that saturate security tools with noise. This unique perspective helps analysts confidently ignore irrelevant or harmless activity, creating more time to uncover and investigate true threats. Includes Actions to allow IP enrichments and GNQL queries via the GreyNoise API.",
   "scripts": [],
-  "author": "Swimlane",
+  "author": "GreyNoise",
   "vendor": "GreyNoise",
   "product": "GreyNoise",
-  "url": "http://swimlane.com",
+  "url": "http://greynoise.io",
   "install_requires": [],
   "packages": [
     "sw_greynoise"
   ],
   "name": "sw_greynoise",
-  "supported_swimlane_version": ">=10.0.0",
-  "python_version": "3.6"
+  "supported_swimlane_version": "<10.5.0",
+  "python_version": "3.6",
+  "python_runtime": "3.6",
+  "private": false
 }

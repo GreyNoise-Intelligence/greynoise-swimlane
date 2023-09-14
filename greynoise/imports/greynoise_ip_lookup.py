@@ -16,11 +16,10 @@ class SwMain(GreynoiseBaseClass):
         for result in quick_response:
             if result["noise"] or result["riot"]:
                 response["noise"] = result["noise"]
+                response["riot"] = result["riot"]
                 response["code"] = result["code"]
                 response["code_message"] = result["code_message"]
-                response["viz_url"] == (
-                            "https://www.greynoise.io/viz/ip/" + self.ip_address
-                    )
+                response["viz_url"] = "https://www.greynoise.io/viz/ip/" + self.ip_address
             if result["riot"]:
                 riot_response = self.session.riot(self.ip_address)
                 riot_response["classification"] = "RIOT"
@@ -28,6 +27,7 @@ class SwMain(GreynoiseBaseClass):
 
             if result["noise"]:
                 context_response = self.session.ip(self.ip_address)
+                context_response["message"] = "Success."
                 for section in raw_data_subsections:
                     if len(context_response["raw_data"][section]) > 1000:
                         context_response["raw_data"][section] = \

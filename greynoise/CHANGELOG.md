@@ -6,7 +6,7 @@
 * Added support for RIOT Trust Levels
 * Changed classification on RIOT IPs to "RIOT" instead of "benign"
 * Updated GreyNoise SDK to version 1.1.0  
-* Product version tested against: 10.2.2
+* Product version tested against: GreyNoise v2 APIs
 
 ## 1.1.0 - 2021-05-24
 
