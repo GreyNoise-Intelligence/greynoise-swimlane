@@ -19,7 +19,7 @@ class SwMain(GreynoiseBaseClass):
                 response["riot"] = result["riot"]
                 response["code"] = result["code"]
                 response["code_message"] = result["code_message"]
-                response["viz_url"] = "https://www.greynoise.io/viz/ip/" + self.ip_address
+                response["viz_url"] = "https://viz.greynoise.io/ip/" + self.ip_address
             if result["riot"]:
                 riot_response = self.session.riot(self.ip_address)
                 riot_response["classification"] = "RIOT"

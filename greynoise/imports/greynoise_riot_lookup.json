@@ -1,11 +1,11 @@
 {
   "name": "RIOT Lookup",
   "description": "Lookup an IP address in the GreyNoise RIOT API Endpoint",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "family": "Investigation",
   "actionType": "GreyNoiseRIOTLookup",
   "assetDependencyType": "GreyNoise",
-  "assetDependencyVersion": "1.2.0",
+  "assetDependencyVersion": "1.3.0",
   "inputParameters": {
     "ip_address": {
       "name": "IP Address",

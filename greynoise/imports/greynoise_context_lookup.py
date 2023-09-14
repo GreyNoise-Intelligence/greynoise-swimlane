@@ -13,7 +13,7 @@ class SwMain(GreynoiseBaseClass):
         for result in response:
             if result["noise"]:
                 context_response = self.session.ip(self.ip_address)
-                context_response["viz_url"] = "https://www.greynoise.io/viz/ip/" + self.ip_address
+                context_response["viz_url"] = "https://viz.greynoise.io/ip/" + self.ip_address
                 context_response["noise"] = result["noise"]
                 context_response["code"] = result["code"]
                 context_response["code_message"] = result["code_message"]

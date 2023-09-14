@@ -1,11 +1,11 @@
 {
   "name": "Get Tag Details",
   "description": "Get the Details for a Specific GreyNoise tag",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "family": "Investigation",
   "actionType": "GreyNoiseGetTagDetails",
   "assetDependencyType": "GreyNoise",
-  "assetDependencyVersion": "1.2.0",
+  "assetDependencyVersion": "1.3.0",
   "inputParameters": {
     "tag_name": {
       "name": "GreyNoise Tag Name",
@@ -49,6 +49,14 @@
     "cves": {
       "type": 5,
       "name": "GN Tag Associated CVEs"
+    },
+    "created_at": {
+      "type": 1,
+      "name": "GN Tag Creation Date"
+    },
+    "related_tags": {
+      "type": 5,
+      "name": "GN Tag Related Tags"
     }
   },
   "pythonDependencies": null,
