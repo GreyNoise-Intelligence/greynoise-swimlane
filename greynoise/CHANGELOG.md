@@ -1,6 +1,11 @@
 # CHANGELOG
 
-## 1.2.0 - 2021-12-09
+## 1.3.0 - 2023-09-14
+
+* Updated GreyNoise SDK to version 2.0.1
+* 
+
+* ## 1.2.0 - 2021-12-09
 
 * Added cap to raw_data output to limit 1000 items per subsection
 * Added support for RIOT Trust Levels

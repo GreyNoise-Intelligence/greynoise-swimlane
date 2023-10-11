@@ -1,7 +1,7 @@
 from greynoise import GreyNoise
 from sw_greynoise import GreynoiseBaseClass
 
-PLUGIN_VERSION = "v1.2.0"
+PLUGIN_VERSION = "v1.3.0"
 
 
 class SwMain(GreynoiseBaseClass):
@@ -11,7 +11,7 @@ class SwMain(GreynoiseBaseClass):
         self.api_key = context.asset["api_key"]
         self.session = GreyNoise(
             api_key=self.api_key,
-            integration_name="greynoise-community-swimlane-" + PLUGIN_VERSION,
+            integration_name="swimlane-community-" + PLUGIN_VERSION,
             offering="community",
         )
 

@@ -11,8 +11,8 @@ class SwMain(GreynoiseBaseClass):
         output = []
         response = self.session.query(self.query, size=self.limit)
         if response["count"] >= 1:
-            for result in response["data"]:
-                result["viz_url"] = "https://www.greynoise.io/viz/ip/" + result["ip"]
+            for result in response.get("data"):
+                result["viz_url"] = "https://viz.greynoise.io/ip/" + result.get("ip")
                 output.append(result)
 
         return output
