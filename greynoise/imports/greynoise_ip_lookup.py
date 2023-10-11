@@ -14,11 +14,11 @@ class SwMain(GreynoiseBaseClass):
         quick_response = self.session.quick(self.ip_address, include_invalid=True)
 
         for result in quick_response:
-            if result["noise"] or result["riot"]:
-                response["noise"] = result["noise"]
-                response["riot"] = result["riot"]
-                response["code"] = result["code"]
-                response["code_message"] = result["code_message"]
+            if result.get("noise") or result.get("riot"):
+                response["noise"] = result.get("noise")
+                response["riot"] = result.get("riot")
+                response["code"] = result.get("code")
+                response["code_message"] = result.get("code_message")
                 response["viz_url"] = "https://viz.greynoise.io/ip/" + self.ip_address
             if result["riot"]:
                 riot_response = self.session.riot(self.ip_address)
@@ -32,7 +32,8 @@ class SwMain(GreynoiseBaseClass):
                     if len(context_response["raw_data"][section]) > 1000:
                         context_response["raw_data"][section] = context_response["raw_data"][section][:1000]
                         context_response["message"] = (
-                            str(context_response["message"]) + " Raw Data - " + section + " truncated to 1000 results."
+                                str(context_response[
+                                        "message"]) + " Raw Data - " + section + " truncated to 1000 results."
                         )
                 response.update(context_response)
             else:

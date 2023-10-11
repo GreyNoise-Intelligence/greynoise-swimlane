@@ -1,4 +1,4 @@
-from swimbundle_utils.helpers import create_test_conn
+from swimlane_connector_utilities import create_test_conn
 from sw_greynoise import GreynoiseBaseClass
 
 
