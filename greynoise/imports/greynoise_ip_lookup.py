@@ -32,8 +32,7 @@ class SwMain(GreynoiseBaseClass):
                     if len(context_response["raw_data"][section]) > 1000:
                         context_response["raw_data"][section] = context_response["raw_data"][section][:1000]
                         context_response["message"] = (
-                                str(context_response[
-                                        "message"]) + " Raw Data - " + section + " truncated to 1000 results."
+                            str(context_response["message"]) + " Raw Data - " + section + " truncated to 1000 results."
                         )
                 response.update(context_response)
             else:

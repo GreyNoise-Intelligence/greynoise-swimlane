@@ -7,5 +7,9 @@ class SwMain(GreynoiseBaseClass):
         self.inputs = context.inputs
 
     def execute(self):
-        response = self.session.similar(ip_address=self.inputs.get("ip_address"), limit=self.inputs.get("limit"), min_score=self.inputs.get("min_score"))
+        response = self.session.similar(
+            ip_address=self.inputs.get("ip_address"),
+            limit=self.inputs.get("limit"),
+            min_score=self.inputs.get("min_score"),
+        )
         return response

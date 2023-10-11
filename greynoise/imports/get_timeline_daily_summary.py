@@ -7,5 +7,10 @@ class SwMain(GreynoiseBaseClass):
         self.inputs = context.inputs
 
     def execute(self):
-        response = self.session.timelinedaily(ip_address=self.inputs.get("ip_address"), days=self.inputs.get("days"), cursor=self.inputs.get("cursor"), limit=self.inputs.get("limit"))
+        response = self.session.timelinedaily(
+            ip_address=self.inputs.get("ip_address"),
+            days=self.inputs.get("days"),
+            cursor=self.inputs.get("cursor"),
+            limit=self.inputs.get("limit"),
+        )
         return response
